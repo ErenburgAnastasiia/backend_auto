@@ -181,7 +181,17 @@ header h1 {
 .form-group button:hover {
     background-color: #0056b3;
 }
-
+.result-card-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 25px; /* Увеличен размер кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 0 auto; /* Увеличен верхний отступ */
+    font-size: 16px;
+}
 /* Дополнительные стили для улучшения отображения фильтров */
 @media (max-width: 768px) {
     .filters-section {
